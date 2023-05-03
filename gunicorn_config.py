@@ -1,0 +1,9 @@
+command = "gunicorn"
+pythonpath = "/var/www/tests/Boxberry-Service"
+bind = "0.0.0.0:8030"
+workers = 1
+user = None
+group = None
+limit_request_fields = 32000
+limit_request_field_size = 0
+raw_env = "DJANGO_SETTINGS_MODULE=config.settings"
